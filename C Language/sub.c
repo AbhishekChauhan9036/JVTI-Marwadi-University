@@ -1,10 +1,13 @@
 #include <stdio.h>
-void main()
+int main()
 {
-    int a, b, c;
+    int a, b, c, d;
     a = 10;
     b = 20;
     c = a - b;
+    d = a * b;
     printf("sub is a and b is: %d\n", c);
-    return;
+    printf("multiplication of  a and b is %d\n",d);
+
+    return 0;
 }
