@@ -18,3 +18,6 @@ print("Value of pi is: ",pi)
 isTrue = (input("Enter a value of is isTrue: "))
 bool_value = isTrue.lower() == 'true'
 print(bool_value)
+
+
+
