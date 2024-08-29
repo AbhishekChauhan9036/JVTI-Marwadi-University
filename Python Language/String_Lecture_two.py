@@ -19,4 +19,26 @@
 # print("Chauhan")
 
 
+# name = "my name is abhishek chauhan"
+# arr = name.split(" ")
+# result = ""
+# for i in range(len(arr)):  
+#     result += arr[i].capitalize() + " "  
+    
+# print(result)
+
+# print(name.capitalize())
+# print(name.upper())
+# print(name.lower())
+# print(name.casefold())
+# print(name.center(50))
+
+
+txt = "HELLO"
+x = txt.isupper()
+print(x)
+
+
+
+
 
