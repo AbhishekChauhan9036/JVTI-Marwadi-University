@@ -1,4 +1,5 @@
 /*Write a C program that checks if a person is eligible to vote or not. Assume the minimum voting age is 18 years.*/
+#include<stdio.h>
 
 /*Write a C program that checks whether a given number is positive, negative, or zero using an if-else statement.*/
 
@@ -21,6 +22,26 @@ Marks >= 70 and < 80: Grade C
 Marks >= 60 and < 70: Grade D
 Marks < 60: Grade F
 */
+int main(){
+    int marks;
+    scanf("%d",&marks);
+    if(marks>=90){
+        printf("Grade A\n");
+    }
+    else if(marks>=80 && marks<90){
+        printf("Grade B\n");
+    }
+    else if(marks>=70 && marks<80){
+        printf("Grade C\n");
+    }
+    else if(marks>=60 && marks<70){
+        printf("Grade D\n");
+    }
+    else{
+        printf("Fail\n");
+    }
+    return 0;
+}
 
 /*Write a C program that categorizes an integer as positive, negative, or zero using an if-else if-else statement.*/
 
@@ -29,3 +50,6 @@ Write a C program that checks the temperature and gives a suggestion based on th
 Temperature > 30: Print "It's hot, stay hydrated."
 Temperature between 15 and 30: Print "The weather is pleasant."
 Temperature < 15: Print "It's cold, wear warm clothes."*/
+
+
+
