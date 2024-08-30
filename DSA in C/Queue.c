@@ -11,6 +11,8 @@ struct Queue
     int *array;
 };
 
+
+
 // function to create a queue
 // of given capacity.
 // It initializes size of queue as 0
@@ -30,7 +32,7 @@ struct Queue *createQueue(unsigned capacity)
 // equal to the capacity
 int isFull(struct Queue *queue)
 {
-    return (queue->size == queue->capacity);
+    return (queue->size == queue->capacity); // O(1)
 }
 
 // Queue is empty when size is 0
@@ -53,6 +55,8 @@ void enqueue(struct Queue *queue, int item)
 
 // Function to remove an item from queue.
 // It changes front and size
+
+
 int dequeue(struct Queue *queue)
 {
     if (isEmpty(queue))
@@ -70,6 +74,7 @@ int front(struct Queue *queue)
         return INT_MIN;
     return queue->array[queue->front];
 }
+
 
 // Function to get rear of queue
 int rear(struct Queue *queue)
@@ -89,10 +94,14 @@ int main()
     enqueue(queue, 30);
     enqueue(queue, 40);
 
-    printf("%d dequeued from queue\n\n", dequeue(queue));
+    // printf("%d dequeued from queue\n\n", dequeue(queue));
+    // printf("%d dequeued from queue\n\n", dequeue(queue));
 
-    printf("Front item is %d\n", front(queue));
+    // printf("Front item is %d\n", front(queue));
     printf("Rear item is %d\n", rear(queue));
 
     return 0;
 }
+
+
+// 1 2 3 4
