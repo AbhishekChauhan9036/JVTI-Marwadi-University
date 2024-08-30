@@ -35,11 +35,41 @@
 # print(name.center(50))
 
 
-txt = "HELLO"
-x = txt.isupper()
-print(x)
+# txt = "HELLO"
+# x = txt.isupper()
+# print(x)
 
 
 
+# a = "My Name is Abhishek Chauhan"
+# b = "Abhishek"
+# c = a.find(b)
+
+# if c != -1:
+#     print(f"Substring found at position {c}")
+# else:
+#     print("Substring not found.")
 
 
+
+fruitsName = ["apple", "banana", "cherry", "Melon",  "Kiwi"]
+# print(fruitsName)
+
+
+list1 = ["Abhishek",21,"Ballia","Abhishek","Marawadi University",100000.35]
+# print(type(list1))
+
+thisset = {"apple", "banana", "cherry","apple","Melon","Melon"}
+print(thisset)
+
+
+[]  = list
+{}  = Set 
+()  =  Tuple
+{Key:Value} = Dictionary 
+
+{
+    "name":"Abhishek",
+    "Roll Number": 19,
+    "Address" : ""
+}

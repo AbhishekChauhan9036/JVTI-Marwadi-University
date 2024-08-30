@@ -22,9 +22,7 @@ Marks >= 60 and < 70: Grade D
 Marks < 60: Grade F
 */
 
-
 /*Write a C program that categorizes an integer as positive, negative, or zero using an if-else if-else statement.*/
-
 
 /*
 Write a C program that checks the temperature and gives a suggestion based on the following criteria:
