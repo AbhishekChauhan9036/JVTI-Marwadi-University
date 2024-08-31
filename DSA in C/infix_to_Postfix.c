@@ -1,3 +1,17 @@
+/*
+    Polish Notation
+    1) Infix Notation    (A+B)        (A+B)*C       (A+B)/(C-D)
+    2) Prefix Notation  +(AB)        *+ABC          /+AB-CD
+    3) Postfix Notation  AB+          AB+C*         AB+CD-
+
+    Infix to PostFix Conversion
+    A+[(B+C) + (D+E) *F ]/G
+    A+[(BC+) + (DE+) *F]/G
+    A+[BC+DE+F*+]G/
+    ABC+DE+F*+G/+
+*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
