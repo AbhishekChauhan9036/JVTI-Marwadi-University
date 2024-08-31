@@ -1,0 +1,31 @@
+**************************** LINKED LIST ***************************  
+Perform following operations :  
+1] Create  
+2] Display  
+3] Insert  
+o insert first  
+o insert last  
+o insert desired  
+o insert before desired  
+o insert after desired  
+ 
+4] Delete  
+o delete first  
+o delete last  
+o delete desired  
+o delete before desired  
+o delete after desired  
+ 
+5] Search particular element  
+6] Sort list in ascending order  
+7] Update an element.  
+8] Count no. of nodes  
+
+Write a program to perform above operations using singly linked list  
+Write a program to perform above operations using doubly linked list  
+Write a program to perform above operations using circular singly linked list  
+Write a program to perform above operations using circular doubly linked list  
+ 
+Linked List Application : 
+1. Write a program to perform polynomial addition. 
+2. Write a program to check the given matrix is sparse or not. 

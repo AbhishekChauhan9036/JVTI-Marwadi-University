@@ -1,0 +1,17 @@
+***************************** Stack *************************************  
+ 
+1] Write a program which performs following stack operations. ->push() -> pop() -> 
+peep() -> update()  
+2] Write a program to find out factorial of number using stack.  
+3] Write a program to print string in reverse order using stack. 
+ 4] Write a tower of Hanoi program.  
+5] Write a program of dynamic stack.  
+ 
+**************************** QUEUE ***********************************  
+1] Write a program which performs following operations using simple queue.  
+insert() -> delete() -> display()  
+ 
+2] Write a program which performs following operations using circular queue.  
+Insert() -> delete() -> display()  
+ 
+3] Write a program of dynamic queue. 
