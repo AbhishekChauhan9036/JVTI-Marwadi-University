@@ -52,24 +52,33 @@
 
 
 
-fruitsName = ["apple", "banana", "cherry", "Melon",  "Kiwi"]
-# print(fruitsName)
+# fruitsName = ["apple", "banana", "cherry", "Melon",  "Kiwi"]
+# # print(fruitsName)
 
 
-list1 = ["Abhishek",21,"Ballia","Abhishek","Marawadi University",100000.35]
-# print(type(list1))
+# list1 = ["Abhishek",21,"Ballia","Abhishek","Marawadi University",100000.35]
+# # print(type(list1))
 
-thisset = {"apple", "banana", "cherry","apple","Melon","Melon"}
-print(thisset)
+# thisset = {"apple", "banana", "cherry","apple","Melon","Melon"}
+# print(thisset)
 
 
-[]  = list
-{}  = Set 
-()  =  Tuple
-{Key:Value} = Dictionary 
+# []  = list
+# {}  = Set 
+# ()  =  Tuple
+# {Key:Value} = Dictionary 
 
-{
-    "name":"Abhishek",
-    "Roll Number": 19,
-    "Address" : ""
-}
+# {
+#     "name":"Abhishek",
+#     "Roll Number": 19,
+#     "Address" : ""
+# }
+
+
+dic1 = {"name":"Abhishek",
+ "age":18,"DOB":"10/07/2003",
+ "College Name":"Marwadi University"
+ }
+ 
+print(dic1)
+
