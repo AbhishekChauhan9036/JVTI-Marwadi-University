@@ -6,7 +6,7 @@
 
 
 // Calculate the simple interest of using c.
-SI = (P * R * T)/ 100
+// SI = (P * R * T)/ 100
 
 
 // Calculate the square of given number in c.
