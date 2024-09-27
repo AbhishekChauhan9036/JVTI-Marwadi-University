@@ -38,7 +38,8 @@ int main()
     struct Node *head = NULL;
     create(&head, 10);
     insertAtFirst(&head, 20);
-    insertAtFirst(&head, 30);
+    // insertAtFirst(&head, 30);
     display(head);
     return 0;
 }
+

@@ -20,10 +20,10 @@ else:
     print("Odd")
 
 
-take nothing retrun nothing
-take something return something
-take something return nothing
-take nothing retrun something
+# take nothing retrun nothing
+# take something return something
+# take something return nothing
+# take nothing retrun something
 
 
 def printText():
