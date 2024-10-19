@@ -17,6 +17,5 @@ int main()
     printf("%lld\n", s1.contactDetails);
     printf("%s\n", s1.Address);
     printf("%s\n", s2.Address);
-
     return 0;
 }
