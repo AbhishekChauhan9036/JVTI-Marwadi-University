@@ -1,1 +1,5 @@
-Bsc Fintech Semester 1
+BSc Cloud & App Dev
+BSc Fintech
+MSc Fintech
+MCA 
+
