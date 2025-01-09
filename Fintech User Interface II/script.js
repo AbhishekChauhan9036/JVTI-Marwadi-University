@@ -88,6 +88,20 @@ let text4 = text1.trimEnd();
 
 
 
+let text = "Please locate where 'locate' occurs!";
+let index = text.indexOf("occurs");
 
+
+
+let text23 = "Please locate where 'locate' occurs!";
+let index1 = text23.lastIndexOf("locate");
+// console.log(index1)
+
+
+let FirstName = "Hepin";
+let LastName = "Desai"
+let fullName = `${FirstName} ${LastName}`;
+console.log(fullName);
+// process.stdout.write(`Hello World`);
 
 
