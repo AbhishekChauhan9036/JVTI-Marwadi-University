@@ -1,15 +1,27 @@
 #include<bits/stdc++.h>
-class Employee{
+using namespace std;
+class Rectangle{
     private:
-        String name;
-        int age;
-        String Designation;
-        double salary;
+        int length;
+        int width;
     public:
-        Employee(){
-            
+        Rectangle(int l,int w){
+            length = l;
+            width = w;
         }
-}
-int main(){
 
+        ~Rectangle(){
+            cout<<"Destructor is called"<<endl;
+        }
+
+        int area(){
+            return length*width;
+        }
+};
+
+int main(){
+    Rectangle r1(10,20);
+    int Area = r1.area();
+    cout<<"Area of Reactangle is:"<<Area<<endl;
+    return 0;
 }
