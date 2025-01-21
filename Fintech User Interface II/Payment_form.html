@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Payment Form</h1>
+      <h2>Contact Information</h2>
+      <p>Name:* <input type="text" name="name" id="name" required /></p>
+
+      <fieldset>
+        <legend>Gender *</legend>
+        <p>
+          Male: <input type="radio" name="gender" id="male" required /> Female:
+          <input type="radio" name="gender" id="female" required />
+        </p>
+      </fieldset>
+      <p>
+        Address:*
+        <textarea
+          name="address"
+          id="address"
+          cols="100"
+          rows="7"
+          required
+        ></textarea>
+      </p>
+      <p>Email:* <input type="email" name="email" id="email" required /></p>
+      <p>
+        Pincode:* <input type="number" name="pincode" id="pincode" required />
+      </p>
+
+      <h2>Payment Information</h2>
+      <p>
+        Card Type:*
+        <select name="card_type" id="card_type" required>
+          <option value="">--select a Card Type--</option>
+          <option value="visa">Visa</option>
+          <option value="rupay">Rupay</option>
+          <option value="mastercard">Mastercard</option>
+        </select>
+      </p>
+      <p>
+        Card Number:*
+        <input type="number" name="card_number" id="card_number" required />
+      </p>
+      <p>
+        Expiration Date:*
+        <input type="date" name="exp_date" id="exp_date" required />
+      </p>
+      <p>CVV:* <input type="password" name="cvv" id="cvv" required /></p>
+      <input type="submit" value="Pay Now" />
+    </form>
+  </body>
+</html>
+
+
+<!-- 
+
+    http://127.0.0.1:5500/Payment_form.html?name=Abhishek+Chauhan&gender=on&address=Ballia%2C+Uttar+Pradesh%2C+India&email=abhishekchauhan9036%40gmail.com&pincode=221716&card_type=visa&card_number=73267638276&exp_date=2025-06-13&cvv=67237
+ -->
