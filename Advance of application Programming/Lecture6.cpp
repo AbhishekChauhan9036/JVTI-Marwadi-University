@@ -6,7 +6,6 @@ using namespace std;
 class Box{
     private:
         double length;
-        double width;
     
     public:
         //Constructor Initialization
