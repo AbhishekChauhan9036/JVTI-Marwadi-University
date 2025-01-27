@@ -1,0 +1,11 @@
+@media screen and (width: 700px) {
+  body {
+    color: blueviolet;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    color: aqua;
+  }
+}
