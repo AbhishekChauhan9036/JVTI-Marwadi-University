@@ -9,3 +9,24 @@
     color: aqua;
   }
 }
+
+/* And Operator */
+@media screen and (max-width: 360px) and (orientation: landscape) {
+  body {
+    color: red;
+  }
+}
+
+/* OR Operator */
+@media screen and (max-width: 360px), (orientation: landscape) {
+  body {
+    color: yellow;
+  }
+}
+
+/* Not Operator */
+@media not all and (orientation: landscape) {
+  body {
+    color: yellow;
+  }
+}
