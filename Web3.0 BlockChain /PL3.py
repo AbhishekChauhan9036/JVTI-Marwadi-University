@@ -1,9 +1,8 @@
 import hashlib
-import datetime
 import time
 
 class Block:
-    def __init__(self, index, previous_hash, transactions, difficulty=4):
+    def __init__(self, index, previous_hash, transactions, difficulty):
         self.index = index
         self.previous_hash = previous_hash
         self.transactions = transactions
@@ -30,6 +29,6 @@ genesis_block = Block(0,"0",transactions,difficulty=4)
 
 print(f"Block Mined Hash: {genesis_block.hash}")
 print(f"Nonce: {genesis_block.nonce}")
-
+print(genesis_block.timestamp)
 
 
