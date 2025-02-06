@@ -1,3 +1,7 @@
+/**
+ * @file Lecture15.cpp
+ * Single Inheritence
+ */
 #include"bits/stdc++.h"
 using namespace std;
 
