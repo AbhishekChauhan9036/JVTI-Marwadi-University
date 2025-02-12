@@ -90,6 +90,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .sidebar h3 {
@@ -120,4 +121,39 @@ body {
 
 .sidebar ul li a:hover {
   color: #6a11cb;
+}
+
+.footer {
+  grid-area: footer;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.footer {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas: "header" "main" "sidebar" "footer";
+    grid-template-columns: 1fr;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .blog-post {
+    font-size: 1.5rem;
+  }
+
+  .sidebar h3 {
+    font-size: 1.3rem;
+  }
 }
