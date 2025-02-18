@@ -7,14 +7,14 @@
 using namespace std;
 class Base{
 public:
-    virtaul void showMessage(){
+    virtual void showMessage(){
         cout<<"Base: Default Message from Base Class"<<endl;
     }
 };
 
 class Derived : public Base{
 public:
-    void showMessage(){
+    void showMessage() override {
         cout<<"Derived: Custom Message from Derived Class"<<endl;
     }
 };
