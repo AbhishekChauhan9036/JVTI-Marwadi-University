@@ -18,3 +18,11 @@ const maxEle = Math.max(...array);
 const minEle = Math.min(...array);
 console.log(maxEle);
 console.log(minEle);
+
+//  Product of all Even Number using Reduce Function
+const Array = [2, 3, 4, 5, 6, 7, 8];
+const EvenArrSum = Array.reduce(
+  (product, num) => (num % 2 == 0 ? product * num : product),
+  1
+);
+console.log(EvenArrSum);
