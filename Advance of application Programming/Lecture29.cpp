@@ -1,3 +1,6 @@
+/**
+ * Exception Handling in c++
+ */
 #include <bits/stdc++.h>
 using namespace std;
 
