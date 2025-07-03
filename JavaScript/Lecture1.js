@@ -14,3 +14,11 @@ console.log(isTrue, typeof isTrue);
 
 
 // fName, lName, Age, Enrollment_Num, Mob_num, ColleName
+
+/**
+ * What is JavaScript?
+ * what are the different data types in javaScript?
+ * What is the difference between let, var and const?
+ * what is hoisting in JavaScript?
+ * How JavaScript engine works?
+ */
