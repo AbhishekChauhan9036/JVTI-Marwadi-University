@@ -1,6 +1,6 @@
-function printSomething(){
-    console.log("Namaste JavaScript");
-    // document.write("Hello JS");
+function printSomething() {
+  console.log("Namaste JavaScript");
+  // document.write("Hello JS");
 }
 
 /**
